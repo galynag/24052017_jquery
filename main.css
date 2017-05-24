@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 75%;
+    margin: 30px auto;
+}
+.toast {
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    margin: 30px auto;
+    background: cadetblue;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+}
+.toast-messages {
+    position: fixed;
+    overflow: hidden;
+    top: 30px;
+    right: 10px;
+    width: 300px;
+    height: 100%;
+
+}
+.toast-message {
+    display: none;
+    top: 30px;
+    right: 10px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+    background: #000;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+    margin: 30px auto;
+}
